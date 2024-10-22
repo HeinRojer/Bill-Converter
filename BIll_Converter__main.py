@@ -1,0 +1,7 @@
+print("Welcome To Tip Calculator")
+bill_amt= int(input("Enter your total Bill"))
+tip_amt= int(input("Enter the % of tip"))
+amount= ((tip_amt/100)*bill_amt)
+ppl= int(input("Enter the total number of people"))
+total_amt=round((amount/ppl), 3)
+print("Amount per person is : ",total_amt)
